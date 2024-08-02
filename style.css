@@ -1,0 +1,25 @@
+body{
+    color:white;
+    font-family: '华文行楷', 'STXingkai', cursive;
+    background-image: url("https://i.ibb.co/KKBTS81/download.jpg");
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the image */
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+hr{
+    height:2px;
+    background-color:white;
+    border-color:white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+}
+
